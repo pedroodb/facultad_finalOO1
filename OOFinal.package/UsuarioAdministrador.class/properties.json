@@ -1,18 +1,13 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "Object",
+	"super" : "Usuario",
 	"category" : "OOFinal",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"numero",
-		"nombre",
-		"fotoPerfil",
-		"estado",
-		"contactos",
-		"bloqueados"
+		"usuario"
 	],
-	"name" : "Usuario",
+	"name" : "UsuarioAdministrador",
 	"type" : "normal"
 }
