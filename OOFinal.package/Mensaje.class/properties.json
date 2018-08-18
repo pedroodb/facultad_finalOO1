@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"category" : "OOFinal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"emisor",
+		"mensaje",
+		"fecha"
+	],
+	"name" : "Mensaje",
+	"type" : "normal"
+}

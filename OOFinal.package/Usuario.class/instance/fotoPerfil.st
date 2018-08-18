@@ -1,0 +1,3 @@
+accessing
+fotoPerfil
+	^fotoPerfil 

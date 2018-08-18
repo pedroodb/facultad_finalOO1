@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"category" : "OOFinal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"numero",
+		"nombre",
+		"fotoPerfil",
+		"estado"
+	],
+	"name" : "Usuario",
+	"type" : "normal"
+}

@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"category" : "OOFinal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"participantes",
+		"mensajes"
+	],
+	"name" : "Chat",
+	"type" : "normal"
+}
