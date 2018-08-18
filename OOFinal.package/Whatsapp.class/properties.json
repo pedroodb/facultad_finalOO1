@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "Object",
+	"category" : "OOFinal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"usuarios"
+	],
+	"name" : "Whatsapp",
+	"type" : "normal"
+}
