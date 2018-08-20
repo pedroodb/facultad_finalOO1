@@ -1,4 +1,4 @@
-accessing
+initialization
 initMensaje: unMensaje de: unUsuario
 	mensaje := unMensaje.
 	emisor := unUsuario.
