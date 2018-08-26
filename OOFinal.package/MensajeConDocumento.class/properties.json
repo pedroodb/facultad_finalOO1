@@ -5,7 +5,9 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"documento"
+	],
 	"name" : "MensajeConDocumento",
 	"type" : "normal"
 }
