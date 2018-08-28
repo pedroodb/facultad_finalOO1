@@ -1,13 +1,14 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "WAComponent",
-	"category" : "OOFinal-WebApp",
+	"super" : "TestCase",
+	"category" : "OOFinal-Testing",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"numero"
+		"whatsapp",
+		"usuario"
 	],
-	"name" : "IniciarSesionComponent",
+	"name" : "WhatsappTest",
 	"type" : "normal"
 }

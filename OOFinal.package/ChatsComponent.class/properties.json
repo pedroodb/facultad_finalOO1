@@ -6,8 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"numero"
+		"usuario"
 	],
-	"name" : "IniciarSesionComponent",
+	"name" : "ChatsComponent",
 	"type" : "normal"
 }
