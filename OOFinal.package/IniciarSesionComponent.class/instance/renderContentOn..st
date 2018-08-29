@@ -8,6 +8,6 @@ renderContentOn: html
 	
 	html submitButton callback: [ self loginOn: html ]; value: 'Iniciar Sesión'.
 	html anchor
-		callback: [ self newItem ];
+		callback: [ self registrarse ];
 		with: 'Registrarse'.
 	html break
