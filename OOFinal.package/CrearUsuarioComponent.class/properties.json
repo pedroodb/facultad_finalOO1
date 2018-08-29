@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "WAComponent",
+	"category" : "OOFinal-WebApp",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"numero",
+		"nombre",
+		"estado"
+	],
+	"name" : "CrearUsuarioComponent",
+	"type" : "normal"
+}
