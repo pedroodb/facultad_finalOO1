@@ -2,12 +2,15 @@ rendering
 renderContentOn: html
 	html heading level: 2; with: 'Registrarse como usuario nuevo'.
 
-	html tbsFormGroup: [ 
+	html form: [ 
 		html label for: 'inputNumero'; with: 'Número:'.
-		html textInput on:#numero of: self; tbsFormControl; id: 'inputNumero'; placeholder: 'Ingrese su número'.
+		html textInput on:#numero of: self; placeholder: 'Ingrese su número'.
+		html break.
 		html label for: 'inputNombre'; with: 'Nombre:'.
-		html textInput on:#nombre of: self; tbsFormControl; id: 'inputNombre'; placeholder: 'Ingrese su nombre'.
+		html textInput on:#nombre of: self; placeholder: 'Ingrese su nombre'.
+		html break.
 		html label for: 'inputEstado'; with: 'Estado:'.
-		html textInput on:#estado of: self; tbsFormControl; id: 'inputEstado'; placeholder: 'Ingrese un estado'].
+		html textInput on:#estado of: self; placeholder: 'Ingrese un estado'.
+		html break.
+		html submitButton callback: [ self nuevoUsuario ]; value: 'Registrarse'.].
 	
-	html submitButton callback: [ self loginOn: html ]; value: 'Registrarse'

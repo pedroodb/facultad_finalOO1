@@ -11,7 +11,8 @@
 		"fotoPerfil",
 		"estado",
 		"contactos",
-		"bloqueados"
+		"bloqueados",
+		"chats"
 	],
 	"name" : "Usuario",
 	"type" : "normal"

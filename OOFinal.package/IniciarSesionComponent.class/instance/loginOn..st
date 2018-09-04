@@ -1,8 +1,6 @@
 rendering
 loginOn: html
-|chats|
 	(Whatsapp singleton existeUsuarioConNumero: self numero) 
 	ifTrue: [ 
-		chats := ChatsComponent on: (Whatsapp singleton usuarioConNumero: self numero).
-		self call: chats ];
+		self call: (ChatsComponent on: (Whatsapp singleton usuarioConNumero: self numero)). ];
 	ifFalse: [ self imprimirUsuarioInexistente: html ]
