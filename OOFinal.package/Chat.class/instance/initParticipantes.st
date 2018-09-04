@@ -1,3 +1,3 @@
 accessing
 initParticipantes
-	participantes := OrderedCollection new 
+	participantes := OrderedCollection new

@@ -1,0 +1,3 @@
+accessing
+esVacio
+	^ mensajes isEmpty

@@ -1,3 +1,4 @@
 accessing
 eliminarParticipante: unUsuario
-	participantes remove: unUsuario 
+	(participantes includes: unUsuario)
+		ifTrue: [ participantes remove: unUsuario ]
