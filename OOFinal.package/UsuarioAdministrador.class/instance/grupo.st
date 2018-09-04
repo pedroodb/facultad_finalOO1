@@ -1,0 +1,3 @@
+initialization
+grupo
+	^grupo

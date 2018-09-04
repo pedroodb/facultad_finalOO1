@@ -6,7 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"usuario"
+		"usuario",
+		"grupo"
 	],
 	"name" : "UsuarioAdministrador",
 	"type" : "normal"
