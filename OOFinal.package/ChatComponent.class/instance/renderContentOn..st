@@ -1,6 +1,11 @@
-accessing
+rendering
 renderContentOn: html
+	html anchor
+		callback: [ self misChats ];
+		with: 'Mis Chats'.
 	html heading
 		level: 2;
 		with: chat nombre.
-	self renderMensajesOn: html
+	self renderAgregarContactoOn: html.
+	self renderMensajesOn: html.
+	self renderEnviarMensajeOn: html

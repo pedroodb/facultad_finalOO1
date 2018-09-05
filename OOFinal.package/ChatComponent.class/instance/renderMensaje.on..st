@@ -1,3 +1,6 @@
-accessing
+rendering
 renderMensaje: mensaje on: html
-	^ html tableRow: [ html tableData: [ html text with: mensaje mensaje] ]
+	^ html
+		tableRow: [ html
+				tableData: [ html
+						text: mensaje emisor nombre , ' dijo: ' , mensaje mensaje , ' a las: ' , mensaje fecha asTime print24 ] ]
