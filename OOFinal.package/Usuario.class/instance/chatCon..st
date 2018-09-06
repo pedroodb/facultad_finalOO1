@@ -1,3 +1,3 @@
 accessing
 chatCon: unUsuario
-	^ chats detect: [ :chat | chat esEntre: self y: unUsuario ]
+	^ self chats detect: [ :chat | chat esEntre: self y: unUsuario ]

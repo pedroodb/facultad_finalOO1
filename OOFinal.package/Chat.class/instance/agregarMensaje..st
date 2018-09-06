@@ -1,3 +1,3 @@
 accessing
 agregarMensaje: unMensaje
-	mensajes add: unMensaje
+	self mensajes add: unMensaje

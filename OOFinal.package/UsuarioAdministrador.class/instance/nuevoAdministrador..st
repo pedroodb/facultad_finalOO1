@@ -1,3 +1,3 @@
 initialization
 nuevoAdministrador: unUsuario
-	grupo nuevoAdministrador: unUsuario
+	self grupo nuevoAdministrador: unUsuario

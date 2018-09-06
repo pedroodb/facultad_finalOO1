@@ -1,3 +1,3 @@
 initialization
 eliminar: unUsuario
-	grupo eliminarParticipante: unUsuario 
+	self grupo eliminarParticipante: unUsuario

@@ -1,3 +1,3 @@
 accessing
 esVacio
-	^ mensajes isEmpty
+	^ self mensajes isEmpty

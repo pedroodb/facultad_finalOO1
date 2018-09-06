@@ -1,3 +1,3 @@
 accessing
 nombre
-	^ participantes first nombre , ' - ' , participantes last nombre.
+	^ self participantes first nombre , ' - ' , self participantes last nombre

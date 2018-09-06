@@ -1,3 +1,3 @@
 initialization
 agregar: unUsuario
-	grupo agregarParticipante: unUsuario 
+	self grupo agregarParticipante: unUsuario

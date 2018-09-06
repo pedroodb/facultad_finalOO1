@@ -1,3 +1,3 @@
 accessing
 agregarUsuario: unUsuario
-	usuarios add: unUsuario
+	self usuarios add: unUsuario

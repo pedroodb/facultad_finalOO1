@@ -1,3 +1,3 @@
 accessing
 usuarioConNumero: unNumero
-	^usuarios detect: [ :usuario | usuario numero = unNumero]
+	^ self usuarios  detect: [ :usuario | usuario numero = unNumero ]

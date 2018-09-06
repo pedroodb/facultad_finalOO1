@@ -1,3 +1,3 @@
 accessing
 agregarParticipante: unUsuario
-	participantes add: unUsuario 
+	self participantes add: unUsuario

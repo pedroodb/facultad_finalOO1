@@ -1,3 +1,3 @@
 initialization
 esEntre: unUsuario y: otroUsuario
-	^ (participantes includes: unUsuario ) and: (participantes includes: otroUsuario)
+	^ (self participantes includes: unUsuario) and: (self participantes includes: otroUsuario)
