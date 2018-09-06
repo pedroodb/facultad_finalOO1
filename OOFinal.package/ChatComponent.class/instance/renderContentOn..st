@@ -5,7 +5,7 @@ renderContentOn: html
 		with: 'Mis Chats'.
 	html heading
 		level: 2;
-		with: chat nombre.
+		with: (chat nombrePara: usuario).
 	self renderAgregarContactoOn: html.
 	self renderMensajesOn: html.
 	self renderEnviarMensajeOn: html
