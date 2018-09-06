@@ -7,8 +7,9 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"usuario",
-		"numeroNuevo"
+		"chat",
+		"mensajeNuevo"
 	],
-	"name" : "ChatsComponent",
+	"name" : "ChatComponent",
 	"type" : "normal"
 }

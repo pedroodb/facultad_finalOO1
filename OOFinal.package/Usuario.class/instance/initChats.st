@@ -1,3 +1,3 @@
 accessing
 initChats
-	chats := OrderedCollection new.
+	chats := Set new
