@@ -1,3 +1,3 @@
 accessing
 nuevoChat: unChat
-	chats add: unChat 
+	self chats add: unChat

@@ -1,0 +1,3 @@
+accessing
+nombre
+	^usuario nombre

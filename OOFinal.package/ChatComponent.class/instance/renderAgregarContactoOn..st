@@ -1,4 +1,9 @@
 rendering
 renderAgregarContactoOn: html
-	(usuario contactos includes: (chat usuarioReceptorDe: usuario))
-		ifFalse: [ html anchor callback: [ usuario agregarContacto: (chat usuarioReceptorDe: usuario) ]; with: 'Agregar a contactos'.]
+	(chat loAdministra: usuario)
+		ifTrue: [ html
+				form: [ html text: 'Ingrese número de contacto para agregar al grupo: '.
+					html textInput on: #nuevoParticipante of: self.
+					html submitButton
+						callback: [ self agregarParticipante ];
+						value: 'Agregar' ] ]

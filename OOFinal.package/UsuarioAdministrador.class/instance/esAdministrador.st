@@ -1,0 +1,3 @@
+initialization
+esAdministrador
+	^true

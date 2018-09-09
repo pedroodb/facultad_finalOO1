@@ -1,0 +1,4 @@
+accessing
+usuario
+	^self yourself
+	
