@@ -6,17 +6,7 @@ renderContentOn: html
 	html heading
 		level: 2;
 		with: (chat nombrePara: usuario).
-	chat esGrupo
-		ifTrue: [ html anchor
-				callback: [ self cambiarNombre ];
-				with: 'Cambiar nombre'.
-				html space: 4.
-			html anchor
-				callback: [ self abandonarGrupo ];
-				with: 'Abandonar grupo'.
-			html horizontalRule.
-			self renderAgregarContactoOn: html.
-			self renderContactosOn: html ].
+	self renderComponentesDeGrupoOn: html.
 	html horizontalRule.
 	self renderMensajesOn: html.
 	self renderEnviarMensajeOn: html
