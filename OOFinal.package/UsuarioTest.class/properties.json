@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TestCase",
+	"category" : "OOFinal-Testing",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"user1",
+		"user2"
+	],
+	"name" : "UsuarioTest",
+	"type" : "normal"
+}
