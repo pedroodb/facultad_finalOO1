@@ -1,3 +1,4 @@
 accessing
 nuevoContacto
-	usuario agregarContacto: (Whatsapp singleton usuarioConNumero: numeroNuevo).
+	(Whatsapp singleton existeUsuarioConNumero: numeroNuevo) ifTrue: [ 
+	usuario agregarContacto: (Whatsapp singleton usuarioConNumero: numeroNuevo)]

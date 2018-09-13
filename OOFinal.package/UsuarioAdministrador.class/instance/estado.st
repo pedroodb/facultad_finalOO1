@@ -1,0 +1,3 @@
+accessing
+estado
+	^ usuario estado

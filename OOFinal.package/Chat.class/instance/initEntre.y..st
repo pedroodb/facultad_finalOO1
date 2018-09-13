@@ -5,5 +5,4 @@ initEntre: unUsuario y: otroUsuario
 		add: unUsuario;
 		add: otroUsuario.
 	self darseAConocerA: participantes.
-	mensajes := SortedCollection
-		sortBlock: [ :unMensaje :otroMensaje | unMensaje fecha > otroMensaje fecha ]
+	self initMensajes

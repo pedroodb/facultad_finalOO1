@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "ChatComponent",
+	"category" : "OOFinal-WebApp",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"nuevoParticipante"
+	],
+	"name" : "ChatGrupalComponent",
+	"type" : "normal"
+}

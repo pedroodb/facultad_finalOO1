@@ -1,4 +1,7 @@
 accessing
 eliminarParticipante: unUsuario
-	(self participantes includes: unUsuario)
-		ifTrue: [ self participantes remove: unUsuario ]
+	(participantes includes: unUsuario)
+		ifTrue: [ participantes remove: unUsuario.
+			unUsuario seEliminoDe: self.
+			^ true ].
+	^ false

@@ -6,6 +6,7 @@ renderContentOn: html
 	html heading
 		level: 2;
 		with: (chat nombrePara: usuario).
-	self renderAgregarContactoOn: html.
+	self renderComponentesDeGrupoOn: html.
+	html horizontalRule.
 	self renderMensajesOn: html.
 	self renderEnviarMensajeOn: html
